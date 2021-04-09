@@ -1,9 +1,10 @@
-import pytest
 from typing import Any
+
+import pytest
 import torch
-from torchtyping import TensorType
 import typeguard
 
+from torchtyping import TensorType
 
 a = b = c = None
 

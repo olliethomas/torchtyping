@@ -1,13 +1,11 @@
 import inspect
+from typing import Any, Type, get_args, get_type_hints
+
 import torch
 import typeguard
 
-from .tensor_details import _Dim, _no_name, ShapeDetail
+from .tensor_details import ShapeDetail, _Dim, _no_name
 from .tensor_type import _AnnotatedType
-
-from typing import Any, get_args, Type
-from typing import get_type_hints
-
 
 # TYPEGUARD PATCHER
 #######################

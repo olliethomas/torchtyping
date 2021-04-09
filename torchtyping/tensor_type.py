@@ -1,20 +1,12 @@
 from __future__ import annotations
 
-import torch
-
-from .tensor_details import (
-    _Dim,
-    _no_name,
-    is_named,
-    DtypeDetail,
-    LayoutDetail,
-    ShapeDetail,
-    TensorDetail,
-)
-from .utils import frozendict
-
 from typing import Annotated, Any, NoReturn
 
+import torch
+
+from .tensor_details import (DtypeDetail, LayoutDetail, ShapeDetail,
+                             TensorDetail, _Dim, _no_name, is_named)
+from .utils import frozendict
 
 # Not Type[Annotated...] as we want to use this in instance checks.
 _AnnotatedType = type(Annotated[torch.Tensor, ...])

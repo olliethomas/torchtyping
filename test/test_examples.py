@@ -1,9 +1,8 @@
 import pytest
-
 from torch import rand, sparse_coo, tensor
-from torchtyping import TensorType, is_named
 from typeguard import typechecked
 
+from torchtyping import TensorType, is_named
 
 # make flake8 happy
 batch = x_channels = y_channels = a = b = channels = channels_x = channels_y = None

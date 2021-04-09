@@ -2,10 +2,9 @@ from __future__ import annotations
 
 import abc
 import collections
-import torch
-
 from typing import Optional, Union
 
+import torch
 
 ellipsis = type(...)
 

@@ -1,8 +1,8 @@
 import pytest
 import torch
-from torchtyping import TensorType
 from typeguard import typechecked
 
+from torchtyping import TensorType
 
 dim1 = dim2 = dim3 = channel = None
 

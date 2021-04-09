@@ -1,7 +1,8 @@
 import pytest
-from torch import rand, Tensor
-from torchtyping import TensorDetail, TensorType
+from torch import Tensor, rand
 from typeguard import typechecked
+
+from torchtyping import TensorDetail, TensorType
 
 good = foo = None
 
