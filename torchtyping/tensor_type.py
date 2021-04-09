@@ -4,8 +4,15 @@ from typing import Annotated, Any, NoReturn
 
 import torch
 
-from .tensor_details import (DtypeDetail, LayoutDetail, ShapeDetail,
-                             TensorDetail, _Dim, _no_name, is_named)
+from .tensor_details import (
+    DtypeDetail,
+    LayoutDetail,
+    ShapeDetail,
+    TensorDetail,
+    _Dim,
+    _no_name,
+    is_named,
+)
 from .utils import frozendict
 
 # Not Type[Annotated...] as we want to use this in instance checks.
