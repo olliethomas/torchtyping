@@ -57,7 +57,7 @@ def test_example3():
     def func(x: TensorType[2, -1, -1]):
         pass
 
-    func(rand(2, 1, 1))
+    func(rand(2, 1))
     func(rand(2, 2, 1))
     func(rand(2, 10, 1))
     func(rand(2, 1, 10))
