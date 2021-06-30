@@ -1,8 +1,8 @@
 import pytest
 from torch import rand
-from torchtyping import TensorType
 from typeguard import typechecked
 
+from torchtyping import TensorType
 
 x = y = None
 

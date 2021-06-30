@@ -1,9 +1,10 @@
+from typing import Union
+
 import pytest
 import torch
-from torchtyping import TensorType
 import typeguard
 
-from typing import Union
+from torchtyping import TensorType
 
 
 @typeguard.typechecked

@@ -1,6 +1,6 @@
-import torch
 import warnings
 
+import torch
 
 with warnings.catch_warnings():
     warnings.simplefilter("ignore")

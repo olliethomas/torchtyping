@@ -1,8 +1,8 @@
 import pytest
 import torch
-from torchtyping import TensorType, is_float, is_named
 import typeguard
 
+from torchtyping import TensorType, is_float, is_named
 
 dim1 = dim2 = dim3 = None
 
